@@ -5,7 +5,7 @@ export default ({ postId, setIsFetch }) => {
   const [content, setContent] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch(`http://localhost:4001/posts/${postId}/comments`, {
+    fetch(`http://posts.com/posts/${postId}/comments`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

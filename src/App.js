@@ -9,7 +9,7 @@ export default () => {
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch("http://localhost:4002/posts", {
+      const response = await fetch("http://posts.com/posts", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

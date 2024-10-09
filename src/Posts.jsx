@@ -13,10 +13,10 @@ export default ({ posts, setIsFetch }) => {
             <div
               className="card"
               style={{ margin: "30px", width: "30%" }}
-              key={post["data"].id}
+              key={post.id}
             >
               <div className="card-body">
-                <h4>{post["data"].title}</h4>
+                <h4>{post.title}</h4>
               </div>
               <div>
                 <hr />

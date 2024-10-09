@@ -6,7 +6,7 @@ import { useState } from "react";
 export default ({ setIsFetch }) => {
   const [title, setTitle] = useState("");
   const handleSubmit = async () => {
-    await fetch("http://localhost:4000/posts", {
+    await fetch("http://posts.com/posts/create", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
